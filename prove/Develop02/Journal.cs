@@ -2,7 +2,7 @@ using System.IO;
 
 public class Journal
 {
-    public List<entry> _entries = new List<entry>();
+    public List<Entry> _entries = new List<Entry>();
 
     public void AddEntry()
     {
