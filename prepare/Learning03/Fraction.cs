@@ -2,22 +2,22 @@ using System;
 
 public class Fraction
 {
-    private int _top = 0;
-    private int _bottom = 0;
+    public int _top = 0;
+    public int _bottom = 0;
 
-    public Neutral()
+    public Fraction()
     {
         _top = 1;
         _bottom = 1;
     }
 
-    public TopChange(int fractionTop)
+    public Fraction(int fractionTop)
     {
         _top = fractionTop;
         _bottom = 1;
     }
 
-    public BothChange(int bottomNum, int topNum)
+    public Fraction(int bottomNum, int topNum)
     {
         _top = topNum;
         _bottom = bottomNum;
