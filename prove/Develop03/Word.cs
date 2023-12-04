@@ -7,21 +7,4 @@ public class Word
     private bool _isHidden = false;
 
     List<Word> _word = new List<Word>();
-
-    public void Hide()
-    {
-        s
-    }
-    public void Show()
-    {
-        s
-    }
-    public bool IsHidden()
-    {
-        return isHidden
-    }
-    public string GetDisplayText()
-    {
-        return text
-    }
 }

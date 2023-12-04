@@ -31,4 +31,5 @@ public class Reference
         Console.WriteLine($"{_book} {_chapter}:{_verse}");
 
     }
+
 }

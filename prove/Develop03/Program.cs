@@ -26,9 +26,7 @@ class Program
 
                 while (loop == 1)
                 {
-                    Reference.DisplayReferenceFull();
                     Console.WriteLine("5 Trust in the Lord with all thine heart; and lean not unto thine own understanding. 6 In all thy ways acknowledge him, and he shall direct thy paths.");
-
                 }
                 
             }
