@@ -1,0 +1,31 @@
+Foundation 1
+
+Classes: Triangle | rectangle | circle
+
+Attributes: _height, _side1 | _side1, _side2 | _radius
+
+Behaviors: Equation, Display | Equation, Display | Equation, Display
+
+Foundation 2
+
+Classes: Information | Processing
+
+Attributes: _name, _DOB, _SSN, _height, _weight, _complexion | _ListOfInfo
+
+Behaviors: none | GetInfo, DisplayInfo
+
+Foundation 3
+
+Classes: Payrates | Salary | FullTime | PartTime | Employee
+
+Attributes: _Salary, _fullTime, _partTime | none | none | none | _name, _position, _employmentType, _timeWorked
+
+Behaviors: none | DisplayPayment | GetTime, DisplayPayment | GetTime, DisplayPayment | DisplayInformation
+
+Foundation 4
+
+Classes: PartsList | SeriousSentence | SillySentence
+
+Attributes: _nouns, _pronouns, _verbs, _adjectives | none | none
+
+Behaviors: SentenceBuilder | SentenceBuilder, DisplaySentence | SentenceBuilder, DisplaySentence
